@@ -1,0 +1,14 @@
+/* pages/level/index.wxss */
+.level-wrap{
+    padding: 2.5vw;
+}
+.level-list{
+    margin: 10rpx 0;
+}
+.level-title{
+    margin-bottom: 20rpx;
+}
+.level-card-wrap{
+    display: flex;
+    overflow: hidden;
+}

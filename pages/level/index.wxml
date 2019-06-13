@@ -1,0 +1,9 @@
+<!--pages/level/index.wxml-->
+<view class="wrap level-wrap">
+    <view wx:for="{{levelList}}" class="level-list">
+        <view class="level-title">{{item.name}}</view>
+        <view class="level-card-wrap">
+            <view class="leevel-card"></view>
+        </view>
+    </view>
+</view>

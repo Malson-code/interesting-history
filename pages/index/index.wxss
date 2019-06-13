@@ -1,0 +1,22 @@
+/**index.wxss**/
+.index-title{
+    width: 60vw;
+    height: 10vh;
+    margin: 15vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50rpx;
+    font-family: 'Courier New', Courier, monospace
+}
+.index-btns{
+    width: 33vw;
+    margin: 0 auto;
+}
+.index-btn{
+    margin-bottom: 36rpx;
+}
+.index-btn-style:active{
+    background-color: #1890ff;
+    color: #fff;
+}
