@@ -1,7 +1,4 @@
 {
   "usingComponents": {},
-  "navigationBarBackgroundColor": "#ffffff",
-  "navigationBarTextStyle": "black",
-  "navigationBarTitleText": "趣味历史题",
-  "backgroundTextStyle": "light"
+  "navigationBarTitleText": "趣味历史题"
 }

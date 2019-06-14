@@ -1,0 +1,13 @@
+<!--pages/question/index.wxml-->
+<view class="wrap question-wrap">
+    <view class="question-title">{{content}}</view>
+    <view class="question-opt {{index == answer && nextQues ?'correct':'' }}" 
+    wx:for="{{options}}" 
+    wx:key="{{index}}" 
+    data-opt="{{index}}"
+    bind:tap="onSelectAnswer"
+    
+    >
+        {{item}}
+    </view>
+</view>

@@ -1,0 +1,29 @@
+/* pages/question/index.wxss */
+.question-title{
+    color: #e5e5e5;
+    font-size: 46rpx;
+    text-align: center;
+    margin-bottom: 10vh;
+    padding: 0 10vw;
+}
+.question-wrap{
+    padding-top: 8vh;
+}
+.question-opt{
+    text-align: center;
+    width: 70%;
+    height: 88rpx;
+    line-height: 88rpx;
+    border-radius: 20rpx;
+    border: 1px solid #9b9b9b;
+    margin: 40rpx auto;
+    color: #e5e5e5;
+}
+.question-opt:active{
+    background-color: #e5e5e5;
+    color: #293039;
+}
+view.correct{
+    border-color: #52c41a;
+    color: #52c41a;
+}

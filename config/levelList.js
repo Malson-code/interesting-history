@@ -1,0 +1,30 @@
+module.exports = [
+    {
+        name:'第一级问题',
+        level:1
+    },
+    {
+        name:'第二级问题',
+        level:2
+    },
+    {
+        name:'第三级问题',
+        level:3
+    },
+    {
+        name:'第四级问题',
+        level:4
+    },
+    {
+        name:'第五级问题',
+        level:5
+    },
+    {
+        name:'第六级问题',
+        level:6
+    },
+    {
+        name:'第七级问题',
+        level:7
+    }
+]

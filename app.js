@@ -30,6 +30,8 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    questionList:null,
+    levelList:null
   }
 })

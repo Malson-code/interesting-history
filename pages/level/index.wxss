@@ -1,14 +1,45 @@
 /* pages/level/index.wxss */
 .level-wrap{
-    padding: 2.5vw;
+    width: 100vw;
+    height: 100vh;
 }
-.level-list{
-    margin: 10rpx 0;
-}
+.level-list{}
 .level-title{
-    margin-bottom: 20rpx;
+    margin-bottom: 2.5vw;
+    margin-left: 2.5vw;
+    font-size: 30rpx;
 }
 .level-card-wrap{
-    display: flex;
+    width: 100vw;
     overflow: hidden;
+}
+.level-card{
+    width: 17vw;
+    height: 17vw;
+    border-radius: 10rpx;
+    font-size: 36rpx;
+    float: left;
+    margin-left: 2.5vw;
+    margin-bottom: 2.5vw;
+    background-color:#20272c; 
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.level-card-ok{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20rpx;
+    height: 20rpx;
+    background-color: #1890ff;
+}
+.level-card:active{
+    background-color: #1890ff;
+    color: #fff;
+    transition: all .2s linear;
 }

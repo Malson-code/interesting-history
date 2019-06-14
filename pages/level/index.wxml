@@ -1,9 +1,18 @@
-<!--pages/level/index.wxml-->
+<!-- pages/level/index.wxml -->
 <view class="wrap level-wrap">
-    <view wx:for="{{levelList}}" class="level-list">
-        <view class="level-title">{{item.name}}</view>
+    <view wx:for="{{levelList}}" class="level-list" wx:key="{{index}}">
+        <view class="level-title text-color">{{item.name}}</view>
         <view class="level-card-wrap">
-            <view class="leevel-card"></view>
+            <view class="level-card" 
+                wx:for="{{questionList}}" 
+                wx:for-item="jtem" 
+                wx:key="{{jtem.uuid}}"
+                wx:if="{{jtem.level===item.level}}"
+                data-props="{{jtem}}"
+                bind:tap="goQuestionPage">
+                {{index + 1}}
+                <view class="level-card-ok" wx:if="{{jtem.isOk}}"></view>
+            </view>
         </view>
     </view>
 </view>

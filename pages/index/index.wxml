@@ -1,19 +1,19 @@
 <!-- index.wxml -->
-<view class="wrap">
+<view class="wrap index-wrap">
   <button wx:if="{{!hasUserInfe}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"></button>
   <view class="index-title">趣味历史题</view>
   <view class="index-btns">
     <view class="index-btn">
-      <button class="index-btn-style" bind:tap="goForGaming">开始</button>
+      <button class="index-btn-style text-color" bind:tap="goForGaming">开始</button>
     </view>
     <view class="index-btn">
-      <button class="index-btn-style">关卡</button>
+      <button class="index-btn-style text-color">关卡</button>
     </view>
     <view class="index-btn">
-      <button class="index-btn-style">排行榜</button>
+      <button class="index-btn-style text-color">排行榜</button>
     </view>
     <view class="index-btn">
-      <button class="index-btn-style">更多</button>
+      <button class="index-btn-style text-color">更多</button>
     </view>
   </view>
 </view>

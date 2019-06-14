@@ -1,18 +1,30 @@
 // pages/level/index.js
-const questionIndex = 1;
+const app = getApp();
+const questionList = require('../../config/question');
+const levelList = require('../../config/levelList');
+// let levelList = app.globalData.levelList;
+// let questionList = app.globalData.questionList;
 Page({
   data: {
-    levelList:[
-      {
-        name:'拾起记忆',
-        questions:['SJHDJAK1','SJHDJAK2','SJHDJAK3','SJHDJAK4','SJHDJAK5','SJHDJAK6','SJHDJAK7','SJHDJAK8']
-      },
-      {
-        name:'初出茅庐',
-        questions:['SJHDJAK1','SJHDJAK2','SJHDJAK3','SJHDJAK4','SJHDJAK5','SJHDJAK6',
-        'SJHDJAK7','SJHDJAK8','SJHDJAK9','SJHDJAK10','SJHDJAK11']
+    levelList: levelList,
+    questionList: questionList
+  },
+  //点击某个题目
+  goQuestionPage(e){
+    let props = e.target.dataset.props;
+    if(!props){
+      //报错
+      return;
+    };
+    wx.setStorage({
+      key:"curQues",
+      data:props,
+      success(){
+        wx.navigateTo({
+          url:'/pages/question/index'
+        })
       }
-    ]
+    })
   },
 
   /**

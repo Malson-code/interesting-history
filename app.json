@@ -1,13 +1,14 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/level/index"
+    "pages/level/index",
+    "pages/question/index"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#293039",
+    "navigationBarTextStyle": "white",
+    "backgroundColorBottom": "#293039",
+    "backgroundColorTop": "#293039"
   },
   "sitemapLocation": "sitemap.json"
 }

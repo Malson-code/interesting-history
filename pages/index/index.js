@@ -1,6 +1,8 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp();
+const questionList = require('../../config/question');
+const levelList = require('../../config/levelList');
 
 Page({
   data: {
@@ -9,6 +11,11 @@ Page({
     hasUserInfo: false,
   },
   onLoad: function () {
+
+    //进行全局缓存
+    app.globalData.questionList = questionList;
+    app.globalData.levelList = levelList;
+
     //转发
     wx.showShareMenu({
       withShareTicket: true
