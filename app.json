@@ -1,8 +1,11 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/level/index",
-    "pages/question/index"
+    "pages/level/level",
+    "pages/question/question",
+    "pages/setting/setting",
+    "pages/rankList/rankList",
+    "pages/gold/gold"
   ],
   "window": {
     "navigationBarBackgroundColor": "#293039",

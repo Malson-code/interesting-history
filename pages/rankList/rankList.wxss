@@ -1,0 +1,61 @@
+/* pages/rankList/rankList.wxss */
+.rank-wrap{
+    position: relative;
+    height: calc(100vh - 16vw);
+}
+.rank-user{
+    position: fixed;
+    height: 16vw;
+    width: 100%;
+    bottom: 0;
+    background-color: #293039;
+    box-shadow: 0 -10rpx 40rpx #222;
+}
+.rank-user .user-info{
+    border: 0
+}
+.rank-list{
+    height: 16vw;
+    width: 100%;
+    display: flex;
+}
+.rank-list{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.user-index{
+    flex-basis: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40rpx;
+    color: #c5c5c5;
+}
+.user-icon-wrap{
+    flex-basis: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-icon image{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.user-info{
+    flex-grow: 1;
+    border-bottom: 1px solid #5d686f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40rpx;
+    margin-left: 20rpx;
+}
+.user-name{
+    color: #c5c5c5;
+}
+.user-point{
+    color: #e09b76
+}

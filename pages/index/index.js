@@ -39,9 +39,22 @@ Page({
   //开始 or 继续游戏
   goForGaming(){
     wx.navigateTo({
-      url: '/pages/level/index'
+      url: '/pages/level/level'
     })
   },
+  //进入排行榜页面
+  goForRank() {
+    wx.navigateTo({
+      url: '/pages/rankList/rankList'
+    })
+  },
+  //进入设置页面
+  goForSetting(){
+    wx.navigateTo({
+      url: '/pages/setting/setting'
+    })
+  },
+
   getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo

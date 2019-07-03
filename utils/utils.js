@@ -1,7 +1,7 @@
 // 公共数据处理方法
 export default {
 
-  //生成Uuid
+  //生成Uuid  len生成的UUID长度
   generateUuid(len = 21) {
     let chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');
     let uuid = [], i, radix = chars.length;

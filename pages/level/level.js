@@ -21,7 +21,7 @@ Page({
       data:props,
       success(){
         wx.navigateTo({
-          url:'/pages/question/index'
+          url:'/pages/question/question'
         })
       }
     })

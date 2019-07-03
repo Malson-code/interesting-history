@@ -3,18 +3,18 @@
     
 }
 .index-title{
-    width: 60vw;
-    height: 10vh;
-    margin: 15vh auto;
+    height: 12vh;
+    margin: 16vh auto;
+    margin-top: 13vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50rpx;
+    font-size: 52rpx;
     font-family: 'Courier New', Courier, monospace;
-    color: #fff;
+    color: #e09b76;
 }
 .index-btns{
-    width: 33vw;
+    width: 32vw;
     margin: 0 auto;
 }
 .index-btn{
@@ -24,6 +24,14 @@
     background-color: #20272c;
 }
 .index-btn-style:active{
-    background-color: #1890ff;
+    background-color: #e09b76;
     color: #fff;
+}
+.index-logo{
+    height:12vh;
+    width: 200rpx;
+}
+.index-about{
+    text-align: center;
+    font-size: 30rpx;
 }
