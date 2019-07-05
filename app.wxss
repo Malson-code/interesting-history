@@ -16,5 +16,8 @@ page{
   box-sizing: border-box;
 } 
 .text-color{
-  color: #5d686f;
+  color: #bfbfbf;
+}
+.icon{
+  color: #f5f5f5
 }

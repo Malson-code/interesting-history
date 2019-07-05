@@ -1,30 +1,38 @@
 module.exports = [
     {
-        name:'第一级问题',
+        name:'重拾记忆',
         level:1
     },
     {
-        name:'第二级问题',
+        name:'黑铁',
         level:2
     },
     {
-        name:'第三级问题',
+        name:'青铜',
         level:3
     },
     {
-        name:'第四级问题',
+        name:'白银',
         level:4
     },
     {
-        name:'第五级问题',
+        name:'黄金',
         level:5
     },
     {
-        name:'第六级问题',
+        name:'铂金',
         level:6
     },
     {
-        name:'第七级问题',
+        name:'钻石',
+        level:7
+    },
+    {
+        name:'大师',
+        level:8
+    },
+    {
+        name:'王者',
         level:7
     }
 ]

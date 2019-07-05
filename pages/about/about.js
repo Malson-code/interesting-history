@@ -1,30 +1,11 @@
-// pages/setting/setting.js
+// pages/about/about.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    voice:true,
-    vibrate:true
-  },
 
-  toAbout(){
-    wx.navigateTo({
-      url:'/pages/about/about'
-    })
-  },
-  //改变声音
-  changeVoice(){
-    this.setData({
-      voice:!this.data.voice
-    })
-  },
-  //改变振动
-  changeVibrate(){
-    this.setData({
-      vibrate:!this.data.vibrate
-    })
   },
 
   /**

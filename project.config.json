@@ -37,19 +37,19 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "关卡",
-					"pathName": "pages/level/index",
+					"pathName": "pages/level/level",
 					"query": "",
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 1,
 					"name": "题目",
-					"pathName": "pages/question/index",
+					"pathName": "pages/question/question",
 					"query": "",
 					"scene": null
 				},
@@ -57,6 +57,14 @@
 					"id": -1,
 					"name": "排行榜",
 					"pathName": "pages/rankList/rankList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "设置",
+					"pathName": "pages/setting/setting",
+					"query": "",
 					"scene": null
 				}
 			]

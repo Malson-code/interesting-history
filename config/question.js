@@ -29,7 +29,7 @@ module.exports = [
     {
         uuid: "uuid1",
         isOk: "false",
-        level: 3,
+        level: 1,
         content: "请问这道题的答案是什么____?",
         options: {A: '我是答案A', B: '我是答案B', C: '我是答案C', D: '我是答案D' },
         answer: "C",

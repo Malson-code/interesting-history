@@ -5,7 +5,8 @@
     "pages/question/question",
     "pages/setting/setting",
     "pages/rankList/rankList",
-    "pages/gold/gold"
+    "pages/gold/gold",
+    "pages/about/about"
   ],
   "window": {
     "navigationBarBackgroundColor": "#293039",

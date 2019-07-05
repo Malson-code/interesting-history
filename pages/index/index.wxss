@@ -14,7 +14,7 @@
     color: #e09b76;
 }
 .index-btns{
-    width: 32vw;
+    width: 40vw;
     margin: 0 auto;
 }
 .index-btn{
