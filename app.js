@@ -43,7 +43,7 @@ App({
             }
           },
           { key: 'points', initialData: 0 },
-          { key: 'tips', initialData: 5 },
+          { key: 'tips', initialData: 2 },
           { key: 'vibrate', initialData: true },
           {
             key: 'getTips', initialData: {
