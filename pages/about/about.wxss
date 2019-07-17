@@ -1,1 +1,37 @@
 /* pages/about/about.wxss */
+.about-wrap {
+    color: #e1e1e1;
+}
+.about-logo {
+    height: 15vh;
+    width: 100%;
+}
+.about-name {
+    margin: 0 auto;
+    font-size: 50rpx;
+    text-align: center;
+}
+.about-version {
+    font-size: 30rpx;
+    text-align: center;
+}
+.about-content {
+    padding: 40rpx 50rpx;
+    font-size: 34rpx;
+    line-height: 70rpx;
+    margin-top: 40rpx;
+}
+.about-email {
+    font-size: 34rpx;
+    padding-left: 50rpx;
+    line-height: 60rpx;
+    color: #1890ff;
+}
+.about-copy {
+    position: absolute;
+    bottom: 20rpx;
+    font-size: 28rpx;
+    text-align: center;
+    width: 100%;
+    color: #898989;
+}

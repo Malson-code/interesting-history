@@ -1,22 +1,23 @@
 <!-- pages/setting/setting.wxml -->
 <view class="wrap set-wrap">
-    <view class="set-content">
-        <view class="set-li">
-            <image src="../../resources/voice.svg" class="set-icon" />
-            <text class="set-text">声音</text>
-            <switch checked="{{voice}}" bindchange="changeVoice" class="set-switch"  />
-        </view>
-        <view class="set-li">
-            <image src="../../resources/vibrate.svg" class="set-icon" />
-            <text class="set-text">振动</text>
-            <switch checked="{{vibrate}}" bindchange="changeVibrate" class="set-switch" />
-        </view>
+  <view class="set-content">
+    <!-- 声音 -->
+    <!-- <view class="set-li">
+      <image src="../../resources/voice.svg" class="set-icon" />
+      <text class="set-text">声音</text>
+      <switch checked="{{voice}}" bindchange="changeVoice" class="set-switch" disabled="{{true}}" />
+    </view>-->
+    <view class="set-li">
+      <image src="../../resources/vibrate.svg" class="set-icon" />
+      <text class="set-text">振动</text>
+      <switch checked="{{vibrate}}" bindchange="changeVibrate" class="set-switch" />
     </view>
-    <view class="set-content">
-        <view class="set-li set-li-active" bind:tap="toAbout">
-            <image src="../../resources/about.svg" class="set-icon" />
-            <text class="set-text">关于</text>
-            <image src="../../resources/next.svg" class="set-icon" style="margin-right:0" />
-        </view>
+  </view>
+  <view class="set-content">
+    <view class="set-li set-li-active" bind:tap="toAbout">
+      <image src="../../resources/about.svg" class="set-icon" />
+      <text class="set-text">关于</text>
+      <image src="../../resources/next.svg" class="set-icon" style="margin-right:0" />
     </view>
+  </view>
 </view>

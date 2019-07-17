@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="239px" height="239px" viewBox="0 0 239 239" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>几何-3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M230,204 L30,204 L230,4 L230,204 Z" id="合并形状" stroke="#E5E5E5" transform="translate(130.000000, 104.000000) scale(-1, 1) translate(-130.000000, -104.000000) "></path>
+        <path d="M130,104 L230,204 L30,204 C30,148.771525 74.771525,104 130,104 Z" id="合并形状" stroke="#E5E5E5" fill="#888888" fill-rule="nonzero"></path>
+        <path d="M230,204 L30,204 L30,4 C140.45695,4 230,93.54305 230,204 Z" id="合并形状" stroke="#E5E5E5"></path>
+        <path d="M230,204 C230,93.54305 140.45695,4 30,4 L130,104 C185.228475,104 230,148.771525 230,204 Z" id="合并形状" stroke="#E5E5E5" fill="#888888"></path>
+        <text id="8" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="7" y="126">8</tspan>
+        </text>
+        <text id="8" opacity="0.800000012" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="120" y="231">8</tspan>
+        </text>
+    </g>
+</svg>

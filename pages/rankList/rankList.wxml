@@ -1,27 +1,36 @@
 <!-- pages/rankList/rankList.wxml -->
 <scroll-view class="rank-wrap" scroll-y>
-    <view class="rank-list" wx:for="{{rankList}}" wx:key="{{index}}">
-        <view class="user-index">{{index + 1}}</view>
-        <view class="user-icon-wrap">
-            <view class="user-icon">
-                <image src="https://avatar.csdn.net/0/B/B/3_qq_35709559.jpg" />
-            </view>
-        </view>
-        <view class="user-info">
-            <view class="user-name">帅哥</view>
-            <view class="user-point">233</view>
-        </view>
+  <view class="rank-list" wx:for="{{userList}}" wx:key="{{index}}">
+    <view class="user-index" wx:if="{{index>2}}">{{index + 1}}</view>
+    <view class="user-index" wx:elif="{{index===0}}">
+      <image src="../../resources/rank.svg" class="rank-icon" />
     </view>
+    <view class="user-index" wx:elif="{{index===1}}">
+      <image src="../../resources/rank1.svg" class="rank-icon" />
+    </view>
+    <view class="user-index" wx:else="{{index===2}}">
+      <image src="../../resources/rank2.svg" class="rank-icon" />
+    </view>
+    <!-- <view class="user-icon-wrap">
+      <view class="user-icon">
+        <image src="{{item.url}}" />
+      </view>
+    </view>-->
+    <view class="user-info">
+      <view class="user-name">{{item.name}}</view>
+      <view class="user-point">{{item.points}}</view>
+    </view>
+  </view>
 </scroll-view>
 <view class="rank-user rank-list">
-    <view class="user-index">100</view>
-    <view class="user-icon-wrap">
-        <view class="user-icon">
-            <image src="https://avatar.csdn.net/0/B/B/3_qq_35709559.jpg" />
-        </view>
+  <view class="user-index">{{author.index}}</view>
+  <!-- <view class="user-icon-wrap">
+    <view class="user-icon">
+      <image src="{{author.url}}" />
     </view>
-    <view class="user-info">
-        <view class="user-name">这个是你自己</view>
-        <view class="user-point">888</view>
-    </view>
+  </view>-->
+  <view class="user-info">
+    <view class="user-name">{{author.name}}</view>
+    <view class="user-point">{{author.points}}</view>
+  </view>
 </view>

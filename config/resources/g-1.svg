@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="181px" height="204px" viewBox="0 0 181 204" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>几何-1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.5,24.5 L8.5,181.5 L165.5,181.5 L165.5,24.5 L8.5,24.5 Z" id="矩形" stroke="#E5E5E5"></path>
+        <text id="A" font-family="ComicSansMS, Comic Sans MS" font-size="18" font-weight="normal" fill="#E5E5E5">
+            <tspan x="0" y="197">A</tspan>
+        </text>
+        <text id="B" font-family="ComicSansMS, Comic Sans MS" font-size="18" font-weight="normal" fill="#E5E5E5">
+            <tspan x="160" y="199">B</tspan>
+        </text>
+        <text id="C" font-family="ComicSansMS, Comic Sans MS" font-size="18" font-weight="normal" fill="#E5E5E5">
+            <tspan x="159" y="21">C</tspan>
+        </text>
+        <text id="D" font-family="ComicSansMS, Comic Sans MS" font-size="18" font-weight="normal" fill="#E5E5E5">
+            <tspan x="1" y="20">D</tspan>
+        </text>
+        <text id="G" font-family="ComicSansMS, Comic Sans MS" font-size="18" font-weight="normal" fill="#E5E5E5">
+            <tspan x="102" y="127">G</tspan>
+        </text>
+        <text id="E" font-family="ComicSansMS, Comic Sans MS" font-size="18" font-weight="normal" fill="#E5E5E5">
+            <tspan x="81" y="199">E</tspan>
+        </text>
+        <text id="F" font-family="ComicSansMS, Comic Sans MS" font-size="18" font-weight="normal" fill="#E5E5E5">
+            <tspan x="170" y="109">F</tspan>
+        </text>
+        <path d="M86.5063291,182 L9,182 L113.009918,129.663799 L165.506329,26 L165.506329,182 L86.5063291,182 Z" id="合并形状" stroke="#E5E5E5" fill="#888888"></path>
+        <path d="M87,181 L87,25 L166,181 L87,181 Z" id="合并形状" stroke="#E5E5E5" transform="translate(126.500000, 103.000000) scale(-1, 1) translate(-126.500000, -103.000000) "></path>
+        <path d="M48.2468354,63.7468354 L126.746835,219.753165 L48.2468354,219.753165 L48.2468354,63.7468354 Z" id="合并形状-copy" stroke="#E5E5E5" transform="translate(87.496835, 141.750000) scale(-1, -1) rotate(90.000000) translate(-87.496835, -141.750000) "></path>
+    </g>
+</svg>

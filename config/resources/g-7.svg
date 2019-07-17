@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="268px" viewBox="0 0 264 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" stroke="#E5E5E5" x="31.5" y="35.5" width="199" height="199"></rect>
+        <path d="M31,35 C141.45695,35 231,124.54305 231,235 C120.54305,235 31,145.45695 31,35 Z" id="合并形状" stroke="#E5E5E5" fill="#888888"></path>
+        <text id="5" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="10" y="141">5</tspan>
+        </text>
+        <text id="5-copy" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="116" y="261">5</tspan>
+        </text>
+    </g>
+</svg>

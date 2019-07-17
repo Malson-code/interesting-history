@@ -1,0 +1,30 @@
+<!--pages/my/my.wxml-->
+<view class="wrap my-wrap">
+  <view class="my-header">
+    <view class="my-url-wrap">
+      <view class="my-url">
+        <image class="my-url-img" src="{{userInfo.avatarUrl}}" />
+      </view>
+      <view class="my-name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <view class="my-info">
+    <view class="my-info-li">
+      <image src="../../resources/points.svg" class="my-icon" />
+      <view class="my-text-name">积分</view>
+      <view class="my-text">{{points}}</view>
+    </view>
+    <view class="my-info-li">
+      <image src="../../resources/tip-white.svg" class="my-icon" />
+      <view class="my-text-name">提示点数量</view>
+      <view class="my-text">{{tips}}</view>
+    </view>
+    <view class="my-info-li click" bind:tap="getPoints">
+      <image src="../../resources/get-points1.svg" class="my-icon" />
+      <view class="my-text-name">获取提示点</view>
+      <view class="my-text">
+        <image src="../../resources/next.svg" class="my-next" />
+      </view>
+    </view>
+  </view>
+</view>

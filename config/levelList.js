@@ -1,38 +1,29 @@
+/*
+    uuid 
+    content 题目内容
+    answer  答案
+    tips     答案解析
+*/
 module.exports = [
     {
-        name:'重拾记忆',
-        level:1
+        uuid: "uUq9BEXoGEmxcvNj6DXpWq",
+        type: 'num',
+        name: '数字规律',
     },
     {
-        name:'黑铁',
-        level:2
+        uuid: "uv861IO9jJzFWhijZ5xUmw",
+        type: 'geometry',
+        name: '几何计算',
     },
     {
-        name:'青铜',
-        level:3
+        uuid: "uJDDSu5Jgter4yIgQ8Td5h",
+        type: 'inference',
+        name: '逻辑推理',
     },
-    {
-        name:'白银',
-        level:4
-    },
-    {
-        name:'黄金',
-        level:5
-    },
-    {
-        name:'铂金',
-        level:6
-    },
-    {
-        name:'钻石',
-        level:7
-    },
-    {
-        name:'大师',
-        level:8
-    },
-    {
-        name:'王者',
-        level:7
-    }
+    // {
+    //     uuid: "uJDDSu5Jgter4yIgQ8Td5h",
+    //     level: 4,
+    //     type: 'final',
+    //     name: '数学宗师',
+    // }
 ]

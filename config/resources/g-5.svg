@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="274px" viewBox="0 0 264 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>111</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M37,30 C93.3330445,30 139,75.6669555 139,132 C139,188.333044 93.3330445,234 37,234 L37,30 Z" id="合并形状" stroke="#E5E5E5" stroke-width="2"></path>
+        <path d="M88,81 C144.333044,81 190,126.666956 190,183 C190,239.333044 144.333044,285 88,285 L88,81 Z" id="合并形状-copy-2" stroke="#E5E5E5" stroke-width="2" transform="translate(139.000000, 183.000000) rotate(-90.000000) translate(-139.000000, -183.000000) "></path>
+        <path d="M139,132 C195.333044,132 241,177.666956 241,234 L37,234 L37,30 C93.3330445,30 139,75.6669555 139,132 Z" id="合并形状" stroke="#E5E5E5" stroke-width="2"></path>
+        <path d="M139,132 C139,188.333044 93.3330445,234 37,234 C37,177.666956 82.6669555,132 139,132 Z" id="合并形状" stroke="#E5E5E5" stroke-width="2" fill="#888888"></path>
+        <path d="M37,234 L37,31.0024111 C37.3331443,31.0008043 37.6664782,31 38,31 C150.113804,31 241,121.886196 241,234 L37,234 Z" id="合并形状" stroke="#E5E5E5" stroke-width="2"></path>
+        <path d="M56.2047208,31.8051993 C159.789409,41.0113877 241,128.021819 241,234 C241,177.666956 195.333044,132 139,132 C139,82.2318408 103.356629,40.7886369 56.2046962,31.805197 Z" id="合并形状" stroke="#E5E5E5" stroke-width="2" fill="#989898"></path>
+        <text id="6" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="8" y="139">6</tspan>
+        </text>
+        <text id="6" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="132" y="267">6</tspan>
+        </text>
+    </g>
+</svg>

@@ -6,7 +6,8 @@
     "pages/setting/setting",
     "pages/rankList/rankList",
     "pages/gold/gold",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/my/my"
   ],
   "window": {
     "navigationBarBackgroundColor": "#293039",

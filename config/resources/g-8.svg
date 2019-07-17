@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="247px" height="173px" viewBox="0 0 247 173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M178.001176,54.9935598 C202.289441,73.2377407 218,102.284172 218,135 C190.385763,135 168,112.614237 168,85 C168,73.7410491 171.72136,63.3512683 178.001176,54.9935598 Z" id="合并形状" stroke="#E5E5E5" fill="#888888"></path>
+        <path d="M177.994136,55.002932 L218,35 C201.640505,35 187.116064,42.8567974 177.994136,55.002932 Z" id="合并形状" stroke="#E5E5E5" fill="#D8D8D8"></path>
+        <path d="M178.005853,54.9970733 L218,35 L218,135 C218,102.286268 202.291454,73.2414625 178.005844,54.9970664 Z" id="合并形状" stroke="#E5E5E5"></path>
+        <path d="M177.994136,55.002932 L218,35 C201.640505,35 187.116064,42.8567974 177.994136,55.002932 Z" id="合并形状-copy-4" stroke="#E5E5E5" fill="#888888"></path>
+        <path d="M178.005853,54.9970733 L218,35 L218,135 C218,102.286268 202.291454,73.2414625 178.005844,54.9970664 Z" id="合并形状-copy-3" stroke="#E5E5E5"></path>
+        <path d="M218,135 L18,135 L218,35 L218,135 Z" id="合并形状" stroke="#E5E5E5"></path>
+        <path d="M178.005853,54.9970733 L18,135 C18,79.771525 62.771525,35 118,35 C140.514742,35 161.291633,42.4406308 178.005844,54.9970664 Z" id="合并形状" stroke="#E5E5E5" fill="#888888"></path>
+        <path d="M143,110 C143,82.3857625 165.385763,60 193,60 C220.614237,60 243,82.3857625 243,110 L143,110 Z" id="合并形状" stroke="#E5E5E5" transform="translate(193.000000, 85.000000) rotate(-90.000000) translate(-193.000000, -85.000000) "></path>
+        <text id="4" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="111" y="161">4</tspan>
+        </text>
+        <text id="2" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="226" y="93">2</tspan>
+        </text>
+    </g>
+</svg>

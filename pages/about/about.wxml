@@ -1,2 +1,12 @@
-<!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<!-- pages/about/about.wxml -->
+<view class="about-wrap">
+  <image src="../../resources/logo.svg" alt="logo" class="about-logo" />
+  <view class="about-name">逻辑数学的魅力</view>
+  <view class="about-version">V 1.0.0</view>
+  <view
+    class="about-content"
+  >《逻辑数学的魅力》是我们精心准备的数学逻辑类游戏，旨在娱乐大家的同时锻炼大家的逻辑思维能力，提升自己的综合竞争力。莘莘学子中一直流传着一句话，“得数学者得天下”！希望你能在学习中不断提升，不断超越自我！</view>
+  <view class="about-email">联系: zhang_and_qiang@163.com</view>
+  <view class="about-email">QQ: 2218106940(备注：逻辑数学)</view>
+  <view class="about-copy">Copyright ©2019 Malson, All Rights Reserved</view>
+</view>

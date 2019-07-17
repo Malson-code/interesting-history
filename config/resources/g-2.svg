@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="181px" height="145px" viewBox="0 0 181 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" stroke="#E5E5E5" x="52.5" y="38.5" width="78" height="49"></rect>
+        <path d="M120.962078,38.5 L62.0379224,38.5 C73.6597437,40.8457092 84.0702311,47.2165091 91.5,56.5326371 C98.9297689,47.2165091 109.340256,40.8457092 120.962078,38.5 Z" id="合并形状" stroke="#E5E5E5" fill="#888888"></path>
+        <circle id="椭圆形-copy" stroke="#E5E5E5" cx="131" cy="88" r="50"></circle>
+        <circle id="椭圆形-copy-2" stroke="#E5E5E5" cx="52" cy="88" r="50"></circle>
+        <path d="M81,88 C81,76.4460749 84.9189063,65.8074594 91.5,57.3408723 C98.0810937,65.8074594 102,76.4460749 102,88 L81,88 Z" id="合并形状" stroke="#E5E5E5" fill="#888888"></path>
+        <text id="O" font-family="ComicSansMS, Comic Sans MS" font-size="20" font-weight="normal" fill="#E5E5E5">
+            <tspan x="36" y="105">O</tspan>
+        </text>
+        <text id="A" font-family="ComicSansMS, Comic Sans MS" font-size="20" font-weight="normal" fill="#E5E5E5">
+            <tspan x="44" y="27">A</tspan>
+        </text>
+        <text id="B" stroke="#E5E5E5" font-family="ComicSansMS, Comic Sans MS" font-size="20" font-weight="normal" fill="#E5E5E5">
+            <tspan x="125" y="32">B</tspan>
+        </text>
+        <text id="O1" font-family="ComicSansMS, Comic Sans MS" font-size="20" font-weight="normal" fill="#E5E5E5">
+            <tspan x="127" y="104">O1</tspan>
+        </text>
+    </g>
+</svg>

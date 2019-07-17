@@ -1,18 +1,82 @@
 <!-- pages/level/index.wxml -->
 <view class="wrap level-wrap">
-    <view wx:for="{{levelList}}" class="level-list" wx:key="{{index}}">
-        <view class="level-title text-color">{{item.name}}</view>
-        <view class="level-card-wrap">
-            <view class="level-card" 
-                wx:for="{{questionList}}" 
-                wx:for-item="jtem" 
-                wx:key="{{jtem.uuid}}"
-                wx:if="{{jtem.level===item.level}}"
-                data-props="{{jtem}}"
-                bind:tap="goQuestionPage">
-                {{index + 1}}
-                <view class="level-card-ok" wx:if="{{jtem.isOk}}"></view>
-            </view>
-        </view>
+  <view class="level-tips">*题目每周新增</view>
+  <view class="level-list">
+    <view class="level-title text-color">
+      <view class="level-title-text">数字规律</view>
+      <view class="level-title-line"></view>
     </view>
+    <view class="level-card-wrap">
+      <view
+        class="level-card"
+        wx:for="{{qNumList}}"
+        wx:for-item="jtem"
+        wx:key="{{ jtem.uuid || index}}"
+        data-props="{{jtem}}"
+        data-list="{{qNumList}}"
+        data-level="{{index + 1}}"
+        data-last="{{qNumList.length === index +1}}"
+        data-pass="{{jtem.isOk?'yes':'no'}}"
+        bind:tap="goQuestionPage"
+      >
+        <view class="level-lock" wx:if="{{ !jtem.isOk && uuidObj.n !== jtem.uuid}}">
+          <image src="../../resources/lock.svg" class="level-lock-icon" />
+        </view>
+        {{index + 1}}
+        <view class="level-card-ok" wx:if="{{jtem.isOk}}"></view>
+      </view>
+    </view>
+  </view>
+  <view class="level-list">
+    <view class="level-title text-color">
+      <view class="level-title-text">几何计算</view>
+      <view class="level-title-line"></view>
+    </view>
+    <view class="level-card-wrap">
+      <view
+        class="level-card"
+        wx:for="{{qGeometryList}}"
+        wx:for-item="jtem"
+        wx:key="{{ jtem.uuid || index}}"
+        data-props="{{jtem}}"
+        data-list="{{qGeometryList}}"
+        data-level="{{index + 1}}"
+        data-last="{{qGeometryList.length === index +1}}"
+        data-pass="{{jtem.isOk?'yes':'no'}}"
+        bind:tap="goQuestionPage"
+      >
+        <view class="level-lock" wx:if="{{ !jtem.isOk && uuidObj.g !== jtem.uuid}}">
+          <image src="../../resources/lock.svg" class="level-lock-icon" />
+        </view>
+        {{index + 1}}
+        <view class="level-card-ok" wx:if="{{jtem.isOk}}" />
+      </view>
+    </view>
+  </view>
+  <view class="level-list">
+    <view class="level-title text-color">
+      <view class="level-title-text">逻辑计算</view>
+      <view class="level-title-line"></view>
+    </view>
+    <view class="level-card-wrap">
+      <view
+        class="level-card"
+        wx:for="{{qInferenceList}}"
+        wx:for-item="jtem"
+        wx:key="{{ jtem.uuid || index}}"
+        data-props="{{jtem}}"
+        data-list="{{qInferenceList}}"
+        data-level="{{index + 1}}"
+        data-last="{{qInferenceList.length === index +1}}"
+        data-pass="{{jtem.isOk?'yes':'no'}}"
+        bind:tap="goQuestionPage"
+      >
+        <view class="level-lock" wx:if="{{ !jtem.isOk && uuidObj.i !== jtem.uuid}}">
+          <image src="../../resources/lock.svg" class="level-lock-icon" />
+        </view>
+        {{index + 1}}
+        <view class="level-card-ok" wx:if="{{jtem.isOk}}" />
+      </view>
+    </view>
+  </view>
 </view>

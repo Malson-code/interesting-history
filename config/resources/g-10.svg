@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="219px" height="211px" viewBox="0 0 219 211" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M9.5,162.5 L209.5,162.5" id="直线" stroke="#E5E5E5" stroke-linecap="square"></path>
+        <path d="M94,45.5 L184,45.5" id="直线-2" stroke="#E5E5E5" stroke-linecap="square"></path>
+        <path d="M94,45.5 L9.5,162.5" id="直线-3" stroke="#E5E5E5" stroke-linecap="square"></path>
+        <path d="M184,45.5 L209.5,163" id="直线-4" stroke="#E5E5E5" stroke-linecap="square"></path>
+        <path d="M94,45 L209.5,163" id="直线-5" stroke="#E5E5E5" stroke-linecap="square"></path>
+        <path d="M184,45.5 L9.5,162.5" id="直线-6" stroke="#E5E5E5" stroke-linecap="square"></path>
+        <text id="A" stroke="#E5E5E5" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="74" y="36.5">A</tspan>
+        </text>
+        <text id="B" stroke="#E5E5E5" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="174" y="36.5">B</tspan>
+        </text>
+        <text id="C" stroke="#E5E5E5" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="197" y="189">C</tspan>
+        </text>
+        <text id="D" stroke="#E5E5E5" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="6" y="187">D</tspan>
+        </text>
+        <text id="O" stroke="#E5E5E5" fill="#D8D8D8" font-family="ComicSansMS, Comic Sans MS" font-size="31" font-weight="normal">
+            <tspan x="114" y="121">O</tspan>
+        </text>
+    </g>
+</svg>

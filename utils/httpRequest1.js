@@ -4,12 +4,12 @@ const App = getApp();
 export default {
 
   //普通请求
-  request(params={}){
+  request(params = {}) {
     let {
-      url='',
-      data='',
-      header={},
-      method='POST',
+      url = '',
+      data = '',
+      header = {},
+      method = 'POST',
       dataType = 'json',
       responseType = 'text',
       success,
@@ -23,16 +23,16 @@ export default {
       method,
       dataType,
       responseType,
-      success: function(res) {
+      success: function (res) {
         success && success(res)
       },
-      fail: function(res) {
+      fail: function (res) {
         fail && fail(res)
       },
-      complete: function(res) {
+      complete: function (res) {
         complete && complete(res)
       },
     })
   }
-  
+
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="272px" height="273px" viewBox="0 0 272 273" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M32,234 L32.2618261,233.737321 C35.9223685,184.474063 75.1758589,145.120537 124.39542,141.303618 L231.349618,34.0010351 C121.191772,34.3517043 32,123.759925 32,234 Z M231.351675,34.0010285 C231.567703,34.000343 231.783811,34 232,34 L232,34.6514658 L231.351675,34.0010285 Z" id="合并形状" stroke="#E5E5E5" fill="#888888"></path>
+        <path d="M232,34.6514658 L232,234 L32,234 L231.350649,34 L232,34.6514658 Z" id="合并形状" stroke="#E5E5E5"></path>
+        <path d="M32.2566998,233.806632 C36.0767157,181.914192 79.388697,141 132.2567,141 C185.124703,141 228.436684,181.914192 232.2567,233.806632 L32.2566998,233.806632 Z" id="合并形状" stroke="#E5E5E5"></path>
+        <path d="M32.2618261,233.737321 L124.39542,141.303618 C126.989416,141.102456 129.611093,141 132.2567,141 C184.132197,141 226.8071,180.392424 232,230.895863 L232,233.806632 L32.2566998,233.806632 C32.2584008,233.783526 32.2601095,233.760423 32.2618261,233.737321 Z" id="合并形状" stroke="#E5E5E5" fill="#888888"></path>
+        <text id="4" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="117" y="260">4</tspan>
+        </text>
+        <text id="4" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="242" y="134">4</tspan>
+        </text>
+    </g>
+</svg>

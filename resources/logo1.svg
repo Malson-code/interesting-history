@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="201px" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="80%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1890FF" offset="0%"></stop>
+            <stop stop-color="#F36F68" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(4.000000, 4.000000)" stroke="url(#linearGradient-1)" stroke-width="6.84345595">
+            <path d="M96.6638152,96.6638152 L48.93071,48.93071 L96.6638152,1.36869119 L112.745937,17.4508127 C130.025663,34.9016253 130.025663,63.1308811 112.57485,80.5816938 L96.6638152,96.6638152 Z M80.5816938,80.5816938 C63.1308811,63.1308811 34.9016253,63.1308811 17.4508127,80.5816938 L1.36869119,96.6638152 L48.93071,144.225834 L96.4927288,96.6638152 L80.5816938,80.5816938 Z M80.5816938,112.57485 C63.1308811,130.025663 63.1308811,158.254919 80.5816938,175.705731 L96.6638152,191.787853 L144.225834,144.225834 L96.6638152,96.6638152 L80.5816938,112.57485 Z M112.57485,112.57485 C130.025663,130.025663 158.254919,130.025663 175.705731,112.57485 L191.787853,96.4927288 L144.225834,48.93071 L96.6638152,96.6638152 L112.57485,112.57485 Z" id="形状"></path>
+        </g>
+    </g>
+</svg>

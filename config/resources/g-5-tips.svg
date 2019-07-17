@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264px" height="274px" viewBox="0 0 264 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>111</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M37,23 C93.3330445,23 139,68.6669555 139,125 C139,181.333044 93.3330445,227 37,227 L37,23 Z" id="合并形状" stroke="#293039" stroke-width="2"></path>
+        <path d="M88,74 C144.333044,74 190,119.666956 190,176 C190,232.333044 144.333044,278 88,278 L88,74 Z" id="合并形状-copy-2" stroke="#293039" stroke-width="2" transform="translate(139.000000, 176.000000) rotate(-90.000000) translate(-139.000000, -176.000000) "></path>
+        <path d="M139,125 C195.333044,125 241,170.666956 241,227 L37,227 L37,23 C93.3330445,23 139,68.6669555 139,125 Z" id="合并形状" stroke="#293039" stroke-width="2"></path>
+        <path d="M139,125 C139,181.333044 93.3330445,227 37,227 C37,170.666956 82.6669555,125 139,125 Z" id="合并形状" stroke="#293039" stroke-width="2" fill="#888888"></path>
+        <path d="M37,227 L37,24.0024111 C37.3331443,24.0008043 37.6664782,24 38,24 C150.113804,24 241,114.886196 241,227 L37,227 Z" id="合并形状" stroke="#293039" stroke-width="2"></path>
+        <path d="M56.2047208,24.8051993 C159.789409,34.0113877 241,121.021819 241,227 C241,170.666956 195.333044,125 139,125 C139,75.2318408 103.356629,33.7886369 56.2046962,24.805197 Z" id="合并形状" stroke="#293039" stroke-width="2" fill="#989898"></path>
+        <text id="6" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#293039">
+            <tspan x="8" y="132">6</tspan>
+        </text>
+        <text id="6" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#293039">
+            <tspan x="132" y="260">6</tspan>
+        </text>
+        <path d="M139,122.5 L38,122.5" id="直线" stroke="#293039" stroke-width="2" stroke-linecap="square" stroke-dasharray="0,6"></path>
+        <path d="M139.5,122.5 L139.5,227" id="直线-2" stroke="#293039" stroke-width="2" stroke-linecap="square" stroke-dasharray="0,6"></path>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>对题目进行处理</title>
+        <style type="text/css">
+            .parent {
+                width: 300px;
+                border: 1px solid red;
+                margin-top: 200px;
+                overflow: auto;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap {
+                display: flex;
+                width: 300px;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #333;
+                /* overflow: auto; */
+            }
+            .child {
+                width: 100px;
+                max-height: 300px;
+                background: #999;
+                overflow: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="wrap">
+                <div class="child">
+                    <div style="height: 500px;width: 300px;">22</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

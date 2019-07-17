@@ -1,4 +1,5 @@
 //app.js
+let utils = require('./utils/utils');
 App({
   onLaunch: function () {
     // 登录
@@ -27,11 +28,45 @@ App({
           })
         }
       }
+    });
+    wx.getStorageInfo({
+      success(res) {
+        let keys = res.keys || [];
+        //初始化缓存
+        let initData = [
+          { key: 'okList', initialData: [] },
+          {
+            key: 'uuidObj', initialData: {
+              n: 'uQoN7yMxjS6qhBcnVuk9he',
+              g: 'uoD9NmrE540WjIvv24Ks5T',
+              i: 'upM8AnTlZjtk8wnBwKuNeT'
+            }
+          },
+          { key: 'points', initialData: 0 },
+          { key: 'tips', initialData: 5 },
+          { key: 'vibrate', initialData: true },
+          {
+            key: 'getTips', initialData: {
+              date: utils.getCurDate(),
+              times: 0
+            }
+          }
+        ];
+        initData.map(item => {
+          if (keys.indexOf(item.key) === -1) {
+            wx.setStorage({
+              key: item.key,
+              data: item.initialData
+            });
+          }
+        })
+      }
     })
+
+
   },
   globalData: {
     userInfo: null,
-    questionList:null,
-    levelList:null
+    okList: [],//已回答正确的题目
   }
 })

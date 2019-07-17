@@ -5,81 +5,49 @@ Page({
    * 页面的初始数据
    */
   data: {
-    voice:true,
-    vibrate:true
+    voice: true,
+    vibrate: true
   },
 
-  toAbout(){
+  toAbout() {
     wx.navigateTo({
-      url:'/pages/about/about'
+      url: '/pages/about/about'
     })
   },
   //改变声音
-  changeVoice(){
+  changeVoice() {
     this.setData({
-      voice:!this.data.voice
+      voice: !this.data.voice
     })
   },
   //改变振动
-  changeVibrate(){
+  changeVibrate() {
+    let isVibrate = !this.data.vibrate;
     this.setData({
-      vibrate:!this.data.vibrate
+      vibrate: !this.data.vibrate
+    });
+    wx.setStorage({
+      key: 'vibrate',
+      data: isVibrate
     })
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    let vibrate = true,
+      $this = this;
+    wx.getStorage({
+      key: 'vibrate',
+      complete(res) {
+        if (res.errMsg.indexOf('ok') !== -1) {
+          vibrate = res.data;
+        }
+        $this.setData({
+          vibrate
+        })
+      }
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
 })

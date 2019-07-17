@@ -1,27 +1,27 @@
 /* pages/setting/setting.wxss */
-.set-content{
-    color: #f5f5f5
+.set-content {
+    color: #f5f5f5;
 }
-.set-li{
-    height: 140rpx;
+.set-li {
+    height: 120rpx;
     display: flex;
     align-items: center;
     padding: 0 40rpx;
     border-bottom: 1rpx solid #555;
 }
-.set-li-active:active{
-    background: #555
+.set-li-active:active {
+    background: #555;
 }
-.set-content{
+.set-content {
     /* margin-bottom: 40rpx */
 }
-.set-icon{
+.set-icon {
     height: 50rpx;
     width: 50rpx;
     margin-right: 40rpx;
 }
-.set-text{
+.set-text {
     flex-grow: 1;
 }
-.set-switch{
+.set-switch {
 }
