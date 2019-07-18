@@ -61,15 +61,14 @@ module.exports = [
     {
         uuid: "uKZ5fvsrT6LSUbJ2l8Wv27",
         points: 6,
-        answer: 20,
+        answer: 33,
         type: 'geometry',
         contentList: [
-            { type: 'text', content: '在平行四边形ABCD中，BE⊥AD，F为CD边上的一点，满足BF = BC = BE，已知AE = 12，DG = 8，问BG的长度为___?' },
+            { type: 'text', content: '正方形ABCD的面积为99，M是AD边上的中点，求图中阴影部分的面积？' },
             { type: 'img', content: 'g-4.svg' },
         ],
         tips: [
-            { type: 'text', content: '提示：我们可以证明BG = AE + DG' },
-            { type: 'text', content: '答案：20' },
+            { type: 'text', content: '答案：33' },
         ]
     },
     {
@@ -89,14 +88,15 @@ module.exports = [
     {
         uuid: "uq6CqKTwHVGM7FnfXbFEPt",
         points: 6,
-        answer: 20,
+        answer: 13.5,
         type: 'geometry',
         contentList: [
-            { type: 'text', content: '在直角扇形中，以底边半径长度为直径作半圆，求阴影部分的面积？(π取3)' },
-            { type: 'img', content: 'g-6.svg' },
+            { type: 'text', content: '长方形ABCD的面积为36，E、F、G为各边的中点，H为AD边上的任意一点，求阴影部分的面积？' },
+            { type: 'img', content: 'g-11.svg' },
         ],
         tips: [
-            { type: 'text', content: '答案：20' },
+            { type: 'text', content: '提示：36 * (1/4 + 1/8)' },
+            { type: 'text', content: '答案：13.5' },
         ]
     },
     {

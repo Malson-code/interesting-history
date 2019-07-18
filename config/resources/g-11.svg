@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="231px" height="142px" viewBox="0 0 231 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" stroke="#E5E5E5" x="16.5" y="21.5" width="199" height="99"></rect>
+        <polygon id="三角形" stroke="#E5E5E5" fill="#888888" points="158.5 21 118.442163 121 16 71"></polygon>
+        <polygon id="三角形" stroke="#E5E5E5" fill="#888888" points="160.722526 21 216 21 216 71.2023546"></polygon>
+        <text id="A" font-family="ComicSansMS, Comic Sans MS" font-size="15" font-weight="normal" fill="#E5E5E5">
+            <tspan x="11" y="17">A</tspan>
+        </text>
+        <text id="E" font-family="ComicSansMS, Comic Sans MS" font-size="15" font-weight="normal" fill="#E5E5E5">
+            <tspan x="0" y="75">E</tspan>
+        </text>
+        <text id="F" font-family="ComicSansMS, Comic Sans MS" font-size="15" font-weight="normal" fill="#E5E5E5">
+            <tspan x="111" y="138">F</tspan>
+        </text>
+        <text id="G" font-family="ComicSansMS, Comic Sans MS" font-size="15" font-weight="normal" fill="#E5E5E5">
+            <tspan x="220" y="72">G</tspan>
+        </text>
+        <text id="B" font-family="ComicSansMS, Comic Sans MS" font-size="15" font-weight="normal" fill="#E5E5E5">
+            <tspan x="11" y="138">B</tspan>
+        </text>
+        <text id="C" font-family="ComicSansMS, Comic Sans MS" font-size="15" font-weight="normal" fill="#E5E5E5">
+            <tspan x="205" y="138">C</tspan>
+        </text>
+        <text id="D" font-family="ComicSansMS, Comic Sans MS" font-size="15" font-weight="normal" fill="#E5E5E5">
+            <tspan x="210" y="17">D</tspan>
+        </text>
+        <text id="H" font-family="ComicSansMS, Comic Sans MS" font-size="15" font-weight="normal" fill="#E5E5E5">
+            <tspan x="153" y="17">H</tspan>
+        </text>
+    </g>
+</svg>

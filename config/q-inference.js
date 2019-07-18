@@ -19,7 +19,7 @@ module.exports = [
             { type: 'text', content: '工厂现有一批螺丝需要拧，已知熟练的老员工需要10天时间拧完，每天报酬200元；初级员工需要15天时间拧完，每天报酬120元，由于场地限制，最多可安排12名员工，若要求必须在一天内完成任务，则最少支付的报酬为___?' }
         ],
         tips: [
-            { type: 'text', content: '1/10 * x + 1/15 * y = 1' },
+            { type: 'text', content: '1/10 * x + 1/15 * y >= 1' },
             { type: 'text', content: 'x + y <=12' },
             { type: 'text', content: 'x = y = 6' },
             { type: 'text', content: '答案：200*6 + 120*6 = 1920' },

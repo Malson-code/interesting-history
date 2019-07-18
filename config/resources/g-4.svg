@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="266px" height="273px" viewBox="0 0 266 273" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="253px" height="266px" viewBox="0 0 253 266" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>g-4</title>
+    <title>Slice 1</title>
     <desc>Created with Sketch.</desc>
     <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M17.5,43 L212.5,43" id="直线" stroke="#E5E5E5" stroke-linecap="square"></path>
-        <path d="M60.5,239.5 L255.5,239.5" id="直线-copy" stroke="#E5E5E5" stroke-linecap="square"></path>
-        <path d="M-38,142 L156.5,138.5" id="直线-copy-2" stroke="#E5E5E5" stroke-linecap="square" transform="translate(59.000000, 140.500000) rotate(-90.000000) translate(-59.000000, -140.500000) "></path>
-        <path d="M17.5,43 L60.5,239.5" id="直线-2" stroke="#E5E5E5" stroke-linecap="square"></path>
-        <path d="M213,43 L255.5,240" id="直线-3" stroke="#E5E5E5" stroke-linecap="square"></path>
-        <path d="M61,239.5 L227,114.5" id="直线-5" stroke="#E5E5E5" stroke-linecap="square"></path>
-        <path d="M212.5,42.5 L212,125.5" id="直线-6" stroke="#E5E5E5" stroke-linecap="square"></path>
-        <text id="A" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
-            <tspan x="0" y="31">A</tspan>
-        </text>
+        <rect id="矩形" stroke="#E5E5E5" x="44.5" y="33.5" width="199" height="199"></rect>
+        <polygon id="三角形" stroke="#E5E5E5" fill="#888888" points="44 33.5 110.332031 166.148438 44 233"></polygon>
+        <polygon id="三角形" stroke="#E5E5E5" fill="#888888" points="244 33 144 233 110.332031 166.859375"></polygon>
         <text id="B" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
-            <tspan x="41" y="264">B</tspan>
+            <tspan x="35" y="26">B</tspan>
         </text>
-        <text id="C" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
-            <tspan x="247" y="266">C</tspan>
-        </text>
-        <text id="E" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
-            <tspan x="54" y="31">E</tspan>
+        <text id="A-Copy" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="35" y="259">A</tspan>
         </text>
         <text id="D" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
-            <tspan x="199" y="26">D</tspan>
+            <tspan x="235" y="259">D</tspan>
+        </text>
+        <text id="C" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="235" y="26">C</tspan>
+        </text>
+        <text id="M" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
+            <tspan x="135" y="259">M</tspan>
         </text>
         <text id="G" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
-            <tspan x="191" y="120">G</tspan>
-        </text>
-        <text id="F" font-family="ComicSansMS, Comic Sans MS" font-size="24" font-weight="normal" fill="#E5E5E5">
-            <tspan x="238" y="120">F</tspan>
+            <tspan x="110" y="140">G</tspan>
         </text>
     </g>
 </svg>
