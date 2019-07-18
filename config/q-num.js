@@ -193,7 +193,7 @@ module.exports = [
     {
         uuid: "uI6Asb22eLnBTPG9JGYb81",
         points: 7,
-        answer: 34,
+        answer: 2,
         type: 'num',
         contentList: [
             { type: 'text', content: '第100个数字是多少？' },
@@ -201,9 +201,8 @@ module.exports = [
         ],
         tips: [
             { type: 'text', content: '规律：简单可见数字3个位一组，每组开头数字按阿拉伯数字排列' },
-            { type: 'text', content: '例：123  234  345 ...' },
-            { type: 'text', content: '那么第99个数字为第33组(33 34 35)' },
-            { type: 'text', content: '答案：34' },
+            { type: 'text', content: '例：123  234  345 456... 但是当数字到10后会无形增加一位为 8910 91011 101112 再次形成规律' },
+            { type: 'text', content: '答案：2' },
         ]
     },
     {
