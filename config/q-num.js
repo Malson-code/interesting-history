@@ -8,6 +8,7 @@ module.exports = [
         answer: 7,
         type: 'num',
         contentList: [
+            { type: 'text', content: '本题为南宁市公务员考试真题' },
             { type: 'text', content: '1, 3, 5, ___, 9, 11' },
         ],
         tips: [
@@ -79,10 +80,11 @@ module.exports = [
     {
         uuid: "uh5riZg9qC1bGdlQEXV5b8",
         points: 3,
-        answer: 89,
+        answer: 34,
         type: 'num',
         contentList: [
-            { type: 'text', content: '第10个数是多少？' },
+            { type: 'text', content: '本题为无锡市公务员考试真题' },
+            { type: 'text', content: '下一个是多少？' },
             { type: 'text', content: '1, 2, 3, 5, 8, 13, 21, ...' },
         ],
         tips: [
@@ -92,7 +94,7 @@ module.exports = [
             { type: 'text', content: '3 = 2 + 1' },
             { type: 'text', content: '5 = 3 + 2' },
             { type: 'text', content: '规律：后面数字等于前面2个数字之和' },
-            { type: 'text', content: '答案：89' },
+            { type: 'text', content: '答案：34' },
         ]
     },
     {
@@ -132,6 +134,7 @@ module.exports = [
         answer: 5954,
         type: 'num',
         contentList: [
+            { type: 'text', content: '本题为深圳市公务员考试真题' },
             { type: 'text', content: '1514, 2624, 3734, 4844, ___?' },
         ],
         tips: [
@@ -144,18 +147,18 @@ module.exports = [
     },
     {
         uuid: "uWC64b69CSUssRy1z0gWMP",
-        points: 5,
-        answer: 2170,
+        points: 6,
+        answer: 120,
         type: 'num',
         contentList: [
-            { type: 'text', content: '10 + 14 + 18 + ... + 130 = ？' },
+            { type: 'text', content: '本题为江苏省市公务员考试真题' },
+            { type: 'text', content: '0, 6, 24, 60, ___?' },
         ],
         tips: [
-            { type: 'text', content: '规律：数值依次增加 4' },
-            { type: 'text', content: '可以发现此为一个等差数列' },
-            { type: 'text', content: '等差数列求和公式为：' },
-            { type: 'text', content: 'S = n*a1+n(n-1)*d/2' },
-            { type: 'text', content: '答案：2170' },
+            { type: 'text', content: '规律：n ^ 3 - n' },
+            { type: 'text', content: '0 = 1 ^ 3 - 1' },
+            { type: 'text', content: '6 = 2 ^ 3 - 2' },
+            { type: 'text', content: '答案：120' },
         ]
     },
     {
@@ -192,17 +195,15 @@ module.exports = [
     },
     {
         uuid: "uI6Asb22eLnBTPG9JGYb81",
-        points: 7,
-        answer: 2,
+        points: 4,
+        answer: 35,
         type: 'num',
         contentList: [
-            { type: 'text', content: '第100个数字是多少？' },
-            { type: 'text', content: '123234345456567...' },
+            { type: 'text', content: '3, 8, 15, 24,  ___?' },
         ],
         tips: [
-            { type: 'text', content: '规律：简单可见数字3个位一组，每组开头数字按阿拉伯数字排列' },
-            { type: 'text', content: '例：123  234  345 456... 但是当数字到10后会无形增加一位为 8910 91011 101112 再次形成规律' },
-            { type: 'text', content: '答案：2' },
+            { type: 'text', content: '规律：依次增加5,7,9' },
+            { type: 'text', content: '答案：35' },
         ]
     },
     {

@@ -8,15 +8,14 @@
   ></button>
   <view class="index-title">
     <view class>
-      <image src="../../resources/logo1.svg" alt="logo" class="index-logo" />
+      <image src="../../resources/index/logo-index.jpg" alt="logo" class="index-logo" />
     </view>
-    <view class>逻辑数学的魅力</view>
   </view>
   <view class="index-btns">
     <view class="index-btn">
       <button class="index-btn-style text-color btn1" bind:tap="goForGaming">
         <image src="../../resources/index/start.svg" class="index-btn-icon" />
-        <text>开始</text>
+        <text style="color:#EF9A9A">开始</text>
       </button>
     </view>
     <view class="index-btn">

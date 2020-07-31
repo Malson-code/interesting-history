@@ -1,6 +1,6 @@
 /**app.wxss**/
 page {
-    background-color: #293039;
+    background-color: rgb(38, 50, 56);
 }
 .wrap {
     /* background-color: #293039; */

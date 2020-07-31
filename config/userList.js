@@ -4,7 +4,7 @@ let userList = [];
 nameList.map(item => {
     let obj = {
         name: item,
-        points: parseInt(Math.random() * 253)
+        points: parseInt(Math.random() * 104) + 150
     }
     userList.push(obj)
 })

@@ -15,7 +15,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    let userInfo = utils.getUserInfo(app);
+    let userInfo = utils.getUserInfo(app) || {};
     let list = utils.deepCopyValue(userList);
     let $this = this;
     wx.getStorage({
@@ -28,7 +28,16 @@ Page({
             url: userInfo.avatarUrl,
             points
           }
-          list.push(author);
+          // 因为排名是模拟的，如果小于100分依次减少52名  大于100分就参与排名
+          if (author.points >= 150) {
+            list.push(author);
+          } else {
+            list.push({
+              name: "算吧",
+              points: 100,
+              url:"XXX"
+            });
+          }
           let newUserList = list.sort((a, b) =>
             b.points - a.points
           );
@@ -38,11 +47,21 @@ Page({
               index = i + 1;
             }
           });
-          author.index = index;
-          $this.setData({
-            userList: newUserList,
-            author
-          })
+          if (index > 0) {
+            author.index = index;
+            $this.setData({
+              userList: newUserList,
+              author
+            })
+          } else {
+            // 如果小于100分依次减少1000名
+            let curIndex = (150 -  author.points) * 52 + 100;
+            author.index = curIndex;
+            $this.setData({
+              userList: newUserList,
+              author
+            })
+          }
         }
       }
     })

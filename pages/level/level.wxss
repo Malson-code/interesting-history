@@ -39,7 +39,7 @@
     float: left;
     margin-left: 3.5vw;
     margin-bottom: 3.5vw;
-    background-color: #20272c;
+    background-color: rgb(30, 39, 44);
     box-sizing: border-box;
     color: #fff;
     display: flex;
@@ -54,7 +54,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #3b3f43;
+    background-color: #2f3f47;
     display: flex;
     align-items: center;
     justify-content: center;

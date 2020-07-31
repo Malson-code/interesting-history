@@ -10,10 +10,10 @@
     "pages/my/my"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#293039",
+    "navigationBarBackgroundColor": "#263238",
     "navigationBarTextStyle": "white",
-    "backgroundColorBottom": "#293039",
-    "backgroundColorTop": "#293039"
+    "backgroundColorBottom": "#263238",
+    "backgroundColorTop": "#263238"
   },
   "sitemapLocation": "sitemap.json"
 }

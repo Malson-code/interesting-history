@@ -1,111 +1,83 @@
 <!-- pages/question/index.wxml -->
 <view class="wrap question-wrap">
-  <view class="tips-wrap" wx:if="{{showTips}}" bind:tap="closeTipsByBg" id="tipsBg">
-    <view class="tips-content fadeInUp">
-      <view class="tips-header">
-        <!-- <view class="tips-header-line" /> -->
-        <image src="../../resources/tip.svg" alt="提示" class="tips-logo" />
-        <view class="tips-title">提 示</view>
-        <view class="tips-close-btn" bind:tap="closeTips">
-          <image src="../../resources/tip-close.svg" class="tips-close" />
-        </view>
-      </view>
-      <scroll-view class="tips-text" scroll-y="{{true}}">
-        <view class="tips-text-padding">
-          <block wx:for="{{tips}}" wx:key="{{index}}">
-            <view wx:if="{{item.type === 'text'}}" class="tips-inner">{{item.content}}</view>
-            <image
-              src="/config/resources/{{item.content}}"
-              class="question-image"
-              wx:if="{{item.type === 'img'}}"
-            />
-          </block>
-        </view>
-      </scroll-view>
-    </view>
-  </view>
-  <view class="tips-wrap" wx:if="{{showCorrect}}">
-    <view class="correct-content zoomIn">
-      <image src="../../resources/correct.svg" alt="正 确" class="correct-logo" />
-      <view class="correct-text">回答正确</view>
-      <view class="correct-close-wrap">
-        <view
-          class="correct-close"
-          bind:tap="nextQuestion"
-          data-text="{{correctText}}"
-        >{{correctText}}</view>
-      </view>
-    </view>
-  </view>
-  <scroll-view
-    class="question-content"
-    enable-flex
-    scroll-y
-    scroll-x
-    style="align-items:{{type === 'geometry'?'flex-start':'center'}}"
-  >
-    <view class="question-point">分值: {{points}}</view>
-    <view class="question-view">
-      <view class="question-text-wrap">
-        <block wx:for="{{contentList}}" wx:key="index">
-          <view
-            class="question-text question-title"
-            wx:if="{{item.type === 'text'}}"
-            style="text-align:{{ contentList.length === 1? contentList[0].content.length < 30?'center':'justify':'center'}}"
-          >
-            <text>{{item.content}}</text>
-          </view>
-          <image
-            src="/config/resources/{{item.content}}"
-            class="question-image"
-            wx:if="{{item.type === 'img'}}"
-          />
-        </block>
-      </view>
-    </view>
-  </scroll-view>
-  <view class="question-answer">
-    <view class="line {{aswError?'error':''}}" />
-    {{curNum}}
-  </view>
-  <view class="question-keyboard">
-    <view class="num-row">
-      <view class="num-btn" data-curtype="7" bind:tap="numClick">7</view>
-      <view class="num-btn" data-curtype="8" bind:tap="numClick">8</view>
-      <view class="num-btn" data-curtype="9" bind:tap="numClick">9</view>
-      <view class="num-btn num-icon" data-curtype="delete" bind:tap="numClick">
-        <image src="../../resources/numDelete.svg" alt="删除" class="delete-icon" />
-      </view>
-      <view class="num-btn num-icon" data-curtype="share" bind:tap="numClick">
-        <button class="share-btn" open-type="share">
-          <image src="../../resources/share.svg" alt="分享" class="share-icon" />
-        </button>
-      </view>
-    </view>
-    <view class="num-row">
-      <view class="num-btn" data-curtype="4" bind:tap="numClick">4</view>
-      <view class="num-btn" data-curtype="5" bind:tap="numClick">5</view>
-      <view class="num-btn" data-curtype="6" bind:tap="numClick">6</view>
-      <view class="num-btn" data-curtype="." bind:tap="numClick">.</view>
-      <view
-        class="num-btn num-icon tip-icon-wrap"
-        data-curtype="tip"
-        bind:tap="numClick"
-        wx:if="{{!fromShare}}"
-      >
-        <image src="../../resources/tip.svg" alt="提示" class="tip-icon" />
-        <view class="tips-num" wx:if="{{tipsNum}}">{{tipsNum}}</view>
-      </view>
-      <view class="num-btn num-icon tip-icon-wrap" data-curtype="tip" wx:else catch:tap="backHome">
-        <image src="../../resources/home.svg" alt="主页" class="tip-icon-home" />
-      </view>
-    </view>
-    <view class="num-row">
-      <view class="num-btn" data-curtype="1" bind:tap="numClick">1</view>
-      <view class="num-btn" data-curtype="2" bind:tap="numClick">2</view>
-      <view class="num-btn" data-curtype="3" bind:tap="numClick">3</view>
-      <view class="num-btn" data-curtype="0" bind:tap="numClick">0</view>
-      <view class="num-btn sure" data-curtype="ok" bind:tap="numClick">OK</view>
-    </view>
-  </view>
+	<view class="tips-wrap" wx:if="{{showTips}}" bind:tap="closeTipsByBg" id="tipsBg">
+		<view class="tips-content fadeInUp">
+			<view class="tips-header">
+				<!-- <view class="tips-header-line" /> -->
+				<image src="../../resources/tip.svg" alt="提示" class="tips-logo" />
+				<view class="tips-title">提 示</view>
+				<view class="tips-close-btn" bind:tap="closeTips">
+					<image src="../../resources/tip-close.svg" class="tips-close" />
+				</view>
+			</view>
+			<scroll-view class="tips-text" scroll-y="{{true}}">
+				<view class="tips-text-padding">
+					<block wx:for="{{tips}}" wx:key="{{index}}">
+						<view wx:if="{{item.type === 'text'}}" class="tips-inner">{{item.content}}</view>
+						<image src="/config/resources/{{item.content}}" class="question-image" wx:if="{{item.type === 'img'}}" />
+					</block>
+				</view>
+			</scroll-view>
+		</view>
+	</view>
+	<view class="tips-wrap" wx:if="{{showCorrect}}">
+		<view class="correct-content zoomIn">
+			<image src="../../resources/correct.svg" alt="正 确" class="correct-logo" />
+			<view class="correct-close-wrap">
+				<view class="correct-close" bind:tap="nextQuestion" data-text="{{correctText}}">{{correctText}}</view>
+			</view>
+		</view>
+	</view>
+	<scroll-view class="question-content" enable-flex scroll-y scroll-x style="align-items:{{type === 'geometry'?'flex-start':'center'}}">
+		<view class="question-point">分值: {{points}}</view>
+		<view class="question-view">
+			<view class="question-text-wrap">
+				<block wx:for="{{contentList}}" wx:key="index">
+					<view class="question-text question-title" wx:if="{{item.type === 'text'}}" style="text-align:{{ contentList.length === 1? contentList[0].content.length < 30?'center':'justify':'center'}}">
+						<text>{{item.content}}</text>
+					</view>
+					<image src="/config/resources/{{item.content}}" class="question-image" wx:if="{{item.type === 'img'}}" />
+				</block>
+			</view>
+		</view>
+	</scroll-view>
+	<view class="question-answer">
+		<view class="line {{aswError?'error':''}}" />
+		{{curNum}}
+	</view>
+	<view class="question-keyboard">
+		<view class="num-row">
+			<view class="num-btn" data-curtype="7" bind:tap="numClick">7</view>
+			<view class="num-btn" data-curtype="8" bind:tap="numClick">8</view>
+			<view class="num-btn" data-curtype="9" bind:tap="numClick">9</view>
+			<view class="num-btn num-icon" data-curtype="delete" bind:tap="numClick">
+				<image src="../../resources/numDelete.svg" alt="删除" class="delete-icon" />
+			</view>
+			<view class="num-btn num-icon" data-curtype="share" bind:tap="numClick">
+				<button class="share-btn" open-type="share">
+					<image src="../../resources/share.svg" alt="分享" class="share-icon" />
+				</button>
+			</view>
+		</view>
+		<view class="num-row">
+			<view class="num-btn" data-curtype="4" bind:tap="numClick">4</view>
+			<view class="num-btn" data-curtype="5" bind:tap="numClick">5</view>
+			<view class="num-btn" data-curtype="6" bind:tap="numClick">6</view>
+			<view class="num-btn" data-curtype="." bind:tap="numClick">.</view>
+			<view class="num-btn num-icon tip-icon-wrap" data-curtype="tip" bind:tap="numClick" wx:if="{{!fromShare}}">
+				<image src="../../resources/tip.svg" alt="提示" class="tip-icon" />
+				<view class="tips-num" wx:if="{{tipsNum}}">{{tipsNum}}</view>
+			</view>
+			<view class="num-btn num-icon tip-icon-wrap" data-curtype="tip" wx:else catch:tap="backHome">
+				<image src="../../resources/home.svg" alt="主页" class="tip-icon-home" />
+			</view>
+		</view>
+		<view class="num-row">
+			<view class="num-btn" data-curtype="1" bind:tap="numClick">1</view>
+			<view class="num-btn" data-curtype="2" bind:tap="numClick">2</view>
+			<view class="num-btn" data-curtype="3" bind:tap="numClick">3</view>
+			<view class="num-btn" data-curtype="0" bind:tap="numClick">0</view>
+			<view class="num-btn sure" data-curtype="ok" bind:tap="numClick">OK</view>
+		</view>
+	</view>
 </view>

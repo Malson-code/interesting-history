@@ -2,7 +2,7 @@
 .index-wrap {
 }
 .index-title {
-    margin: 5vh auto 14vh;
+    margin: 5vh auto 5vh;
     font-size: 50rpx;
     text-align: center;
     color: #e1e1e1;
@@ -35,7 +35,8 @@
     color: #fff;
 }
 .index-logo {
-    height: 15vh;
+    width: 70vw;
+    height: 24vw;
 }
 .index-about {
     text-align: center;

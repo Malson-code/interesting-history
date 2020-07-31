@@ -14,6 +14,7 @@
 .about-version {
     font-size: 30rpx;
     text-align: center;
+    margin-top: 10rpx;
 }
 .about-content {
     padding: 40rpx 50rpx;
