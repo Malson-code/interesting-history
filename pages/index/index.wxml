@@ -1,40 +1,39 @@
 <!-- index.wxml -->
 <view class="wrap index-wrap">
-  <button
-    wx:if="{{!hasUserInfo}}"
-    open-type="getUserInfo"
-    bindgetuserinfo="getUserInfo"
-    class="index-user-btn"
-  ></button>
-  <view class="index-title">
-    <view class>
-      <image src="../../resources/index/logo-index.jpg" alt="logo" class="index-logo" />
-    </view>
-  </view>
-  <view class="index-btns">
-    <view class="index-btn">
-      <button class="index-btn-style text-color btn1" bind:tap="goForGaming">
-        <image src="../../resources/index/start.svg" class="index-btn-icon" />
-        <text style="color:#EF9A9A">开始</text>
-      </button>
-    </view>
-    <view class="index-btn">
-      <button class="index-btn-style text-color btn2" bind:tap="goForRank">
-        <image src="../../resources/index/rankIcon1.svg" class="index-btn-icon" />
-        <text>排行榜</text>
-      </button>
-    </view>
-    <view class="index-btn">
-      <button class="index-btn-style text-color btn3" bind:tap="goForSetting">
-        <image src="../../resources/index/setting.svg" class="index-btn-icon" />
-        <text>设置</text>
-      </button>
-    </view>
-    <view class="index-btn">
-      <button class="index-btn-style text-color btn4" bind:tap="goForMy">
-        <image src="../../resources/index/person.svg" class="index-btn-icon" />
-        <text>我的</text>
-      </button>
-    </view>
-  </view>
+
+	<view class="index-title">
+		<view class>
+			<image src="../../resources/index/logo-index.jpg" alt="logo" class="index-logo" />
+		</view>
+	</view>
+	<view class="index-btns">
+		<button wx:if="{{!hasUserInfo}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="index-user-btn"></button>
+		<view class="index-btn">
+			<button class="index-btn-style text-color btn1" bind:tap="goForGaming">
+				<image src="../../resources/index/start.svg" class="index-btn-icon" />
+				<text style="color:#EF9A9A">闯关开始</text>
+			</button>
+		</view>
+		<view class="index-btn">
+			<button class="index-btn-style text-color btn2" bind:tap="goForRank">
+				<image src="../../resources/index/rankIcon1.svg" class="index-btn-icon" />
+				<text>排行榜</text>
+			</button>
+		</view>
+		<view class="index-btn">
+			<button class="index-btn-style text-color btn3" bind:tap="goForSetting">
+				<image src="../../resources/index/setting.svg" class="index-btn-icon" />
+				<text>设置</text>
+			</button>
+		</view>
+		<view class="index-btn">
+			<button class="index-btn-style text-color btn4" bind:tap="goForMy">
+				<image src="../../resources/index/person.svg" class="index-btn-icon" />
+				<text>我的</text>
+			</button>
+		</view>
+	</view>
+	<view>
+		<button class="index-experience-btn index-btn-style text-color" bind:tap="goForExperience">先体验</button>
+	</view>
 </view>

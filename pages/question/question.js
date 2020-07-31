@@ -11,22 +11,23 @@ Page({
    * 页面的初始数据
    */
   data: {
-    contentList: '',//题目内容
-    answer: '',//答案
-    type: '',//类型
-    points: '',//分值
-    tips: '',//提示
-    nextQues: false,//下一题
+    contentList: '', //题目内容
+    answer: '', //答案
+    type: '', //类型
+    points: '', //分值
+    tips: '', //提示
+    nextQues: false, //下一题
     uuid: '',
-    curNum: '',//当前输入值
-    showTips: false,//展示提示
-    aswError: false,//展示错误信息
-    showCorrect: false,//展示正确
-    isLast: false,//是否是该类型的最后一个题目
-    correctText: '下一关',//回答正确的时候显示的字段  如果是最后一个问题或者通过分享进来的，那么显示“更多关卡”
-    tipsFlag: false,//当页是否点击过按钮，如果点击了下次直接展示就可以了
-    tipsNum: 0,//提示数量
-    fromShare: false,//是否是分享来的
+    curNum: '', //当前输入值
+    showTips: false, //展示提示
+    aswError: false, //展示错误信息
+    showCorrect: false, //展示正确
+    isLast: false, //是否是该类型的最后一个题目
+    correctText: '下一关', //回答正确的时候显示的字段  如果是最后一个问题或者通过分享进来的，那么显示“更多关卡”
+    tipsFlag: false, //当页是否点击过按钮，如果点击了下次直接展示就可以了
+    tipsNum: 0, //提示数量
+    fromShare: false, //是否是分享来的
+    isExperience: false, // 是否是体验的
   },
   /*
       点击数字
@@ -37,6 +38,7 @@ Page({
     let newNum = '';
     let isLast = this.data.isLast;
     let fromShare = this.data.fromShare;
+    let isExperience = this.data.isExperience;
     let uuid = this.data.uuid;
     let $this = this;
     switch (type) {
@@ -52,8 +54,8 @@ Page({
           })
           return;
         }
-        if (answer == curNum) {//答案正确
-          if (fromShare) {
+        if (answer == curNum) { //答案正确
+          if (fromShare || isExperience) {
             this.setData({
               showCorrect: true,
               correctText: '尝试更多'
@@ -143,7 +145,10 @@ Page({
         }
         break;
       case 'delete':
-        this.setData({ curNum: '', aswError: false })
+        this.setData({
+          curNum: '',
+          aswError: false
+        })
         break;
       case 'share':
         return;
@@ -154,18 +159,27 @@ Page({
       case '.':
         if (curNum === '') {
           newNum = '0.';
-          this.setData({ curNum: newNum, aswError: false })
+          this.setData({
+            curNum: newNum,
+            aswError: false
+          })
           return;
         }
         if (curNum.indexOf('.') !== -1) {
           return;
         }
         newNum = curNum + type;
-        this.setData({ curNum: newNum, aswError: false })
+        this.setData({
+          curNum: newNum,
+          aswError: false
+        })
         break;
       default:
         newNum = curNum + type;
-        this.setData({ curNum: newNum, aswError: false })
+        this.setData({
+          curNum: newNum,
+          aswError: false
+        })
         break;
     }
   },
@@ -185,6 +199,7 @@ Page({
     });
   },
   onShow() {
+    if (this.data.isExperience) return;
     //如果是从分享进来就不显示分享按钮
     if (fromShare) return;
     let $this = this;
@@ -211,7 +226,7 @@ Page({
                   } else {
                     return;
                   }
-                } else {//不是当天
+                } else { //不是当天
                   times = 1;
                 }
                 let setTips = {
@@ -304,7 +319,43 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
+  // 处理体验的游客
+  handleExperience() {
+    let title = '欢迎体验！';
+    wx.setNavigationBarTitle({
+      title
+    });
+    try {
+      let curQues = {"uuid":"uQoN7yMxjS6qhBcnVuk9he","points":1,"answer":7,"type":"num","contentList":[{"type":"text","content":"本题为南宁市公务员考试真题"},{"type":"text","content":"1, 3, 5, ___, 9, 11"}],"tips":[{"type":"text","content":"规律：奇数排列"},{"type":"text","content":"答案：7"}]};
+      if (curQues) {
+        console.log(curQues)
+        let {
+          contentList,
+          answer,
+          tips,
+          uuid,
+          type,
+          points
+        } = curQues;
+        this.setData({
+          contentList,
+          answer,
+          tips,
+          uuid,
+          type,
+          points,
+          tipsFlag: true,
+          isExperience: true
+        });
+      }
+    } catch (e) {}
+  },
   onLoad: function (options) {
+    const isExperience = options.experience;
+    if (isExperience) {
+      this.handleExperience();
+      return;
+    }
     fromShare = options.fromShare;
     /*
         点击分享进来的
@@ -324,7 +375,10 @@ Page({
     let last = options.last;
     let pass = options.pass === 'yes';
     let isLast = last === 'true';
-    this.setData({ isLast, fromShare });
+    this.setData({
+      isLast,
+      fromShare
+    });
     let title = level ? '关卡' + level : '关卡';
     if (fromShare) title = '欢迎解题'
     wx.setNavigationBarTitle({
@@ -333,12 +387,25 @@ Page({
     try {
       let curQues = curQ || wx.getStorageSync("curQues");
       if (curQues) {
-        let { contentList, answer, tips, uuid, type, points } = curQues;
+        let {
+          contentList,
+          answer,
+          tips,
+          uuid,
+          type,
+          points
+        } = curQues;
         this.setData({
-          contentList, answer, tips, uuid, type, points, tipsFlag: pass
+          contentList,
+          answer,
+          tips,
+          uuid,
+          type,
+          points,
+          tipsFlag: pass
         })
       }
-    } catch (e) { }
+    } catch (e) {}
   },
   /*
       下一题
@@ -372,16 +439,30 @@ Page({
         }
       }
       let nextIndex = index + 1;
-      let { contentList, answer, level, tips, uuid, type, points } = curList[nextIndex];
+      let {
+        contentList,
+        answer,
+        level,
+        tips,
+        uuid,
+        type,
+        points
+      } = curList[nextIndex];
       this.setData({
-        contentList, answer, level, tips, uuid, type, points
+        contentList,
+        answer,
+        level,
+        tips,
+        uuid,
+        type,
+        points
       })
       let nextLevel = Number(nextIndex) + 1;
       let title = '关卡' + nextLevel;
       wx.setNavigationBarTitle({
         title
       })
-    } catch (e) { }
+    } catch (e) {}
     this.setData({
       showCorrect: false,
       curNum: '',

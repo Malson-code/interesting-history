@@ -33,6 +33,12 @@ Page({
       url: '/pages/level/level'
     })
   },
+  // 先体验一局
+  goForExperience(){
+    wx.navigateTo({
+      url: "/pages/question/question?experience=true"
+    })
+  },
   //进入排行榜页面
   goForRank() {
     wx.navigateTo({
