@@ -206,7 +206,7 @@ Page({
                 let getTips = res.data;
                 let times = 0;
                 if (getTips.date === curDate) { //当天
-                  if (getTips.times < 3) {
+                  if (getTips.times < 2) {
                     times = getTips.times + 1;
                   } else {
                     return;

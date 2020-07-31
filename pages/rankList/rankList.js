@@ -34,7 +34,7 @@ Page({
           } else {
             list.push({
               name: "算吧",
-              points: 100,
+              points: 150,
               url:"XXX"
             });
           }
