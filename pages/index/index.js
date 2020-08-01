@@ -9,7 +9,6 @@ Page({
     hasUserInfo: false,
   },
   onLoad: function () {
-
     //进行全局缓存
     if (app.globalData.userInfo) {
       this.setData({

@@ -56,6 +56,17 @@
 .btn4 {
     animation: rightIn 0.5s cubic-bezier(0, 0, 0.37, 0.74);
 }
+.btn5{
+    animation: bottomIn 0.5s cubic-bezier(0, 0, 0.37, 0.74);
+}
+@keyframes bottomIn {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 @keyframes leftIn {
     0% {
         transform: translateX(-100px);
@@ -78,6 +89,10 @@
     height: 100%;
     z-index: 2;
     background: transparent;
+}
+
+.index-user-btn::after{
+    border: 0;
 }
 
 .index-experience-btn{
