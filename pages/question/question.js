@@ -211,7 +211,7 @@ Page({
         if (curTime) {
           let t = (new Date()).getTime();
           let dt = t - curTime;
-          if (dt > 3500) {
+          if (dt > 1500) {
             curTime = 0;
             let curDate = utils.getCurDate();
             //判断当天获取提示的数量

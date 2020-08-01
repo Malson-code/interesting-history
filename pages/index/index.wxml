@@ -34,6 +34,6 @@
 		</view>
 	</view>
 	<view>
-		<button class="index-experience-btn index-btn-style text-color btn5" bind:tap="goForExperience" style="color:#EF9A9A">游客体验</button>
+		<button wx:if="{{!hasUserInfo}}" class="index-experience-btn index-btn-style text-color btn5" bind:tap="goForExperience" style="color:#EF9A9A">游客体验</button>
 	</view>
 </view>
